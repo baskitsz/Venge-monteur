@@ -1,0 +1,188 @@
+{
+  "id": "fd",
+  "name": "Voorderailleur",
+  "group": "Aandrijving",
+  "coverage": "goed",
+  "description": "Shimano Ultegra Di2-voorderailleur.",
+  "tools": [
+    {
+      "label": "Inbussleutels 2 en 5 mm",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 41
+      }
+    },
+    {
+      "label": "Momentsleutel",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Bevestigingsbout voorderailleur (direct mount)",
+      "nmMin": 5,
+      "nmMax": 7,
+      "tool": "5 mm inbus",
+      "note": "Shimano: bij een carbon frame het juiste moment navragen bij de fiets- of framefabrikant.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 40
+      }
+    }
+  ],
+  "intervals": [],
+  "tasks": [
+    {
+      "id": "fd-mount",
+      "title": "Voorderailleur monteren en uitlijnen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Kijk waar de steunbout de zitbuis raakt voordat je hem losdraait, zodat je hem terug kunt zetten.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 39
+          }
+        },
+        {
+          "text": "Plak het steunplaatje op de plek waar de steunbout de zitbuis raakt (tape niet direct onder de bout).",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 40
+          }
+        },
+        {
+          "text": "Monteer de voorderailleur: 5–7 Nm.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 40
+          }
+        },
+        {
+          "text": "Stel de hoogte af: 1–3 mm tussen buitenplaat en buitenblad.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 40
+          }
+        },
+        {
+          "text": "Lijn uit: het platte deel van de buitenplaat recht boven het buitenblad, de achterkant 0,5–1 mm naar binnen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 41
+          }
+        },
+        {
+          "text": "Stel de steunbout af met een 2 mm inbussleutel zodat de buitenplaat parallel aan het buitenblad blijft.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 41
+          }
+        }
+      ]
+    },
+    {
+      "id": "fd-adjust",
+      "title": "Voorderailleur afstellen (Di2)",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Let op: de schroef voor de hoogste versnelling en de steunbout zitten dicht bij elkaar. Draai aan de juiste.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 135
+          }
+        },
+        {
+          "text": "Hoogste versnelling (schroef): ketting op buitenblad en kleinste tandkrans; stel met een 2 mm inbus 0,5–1 mm speling in tussen ketting en buitenplaat.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 136
+          }
+        },
+        {
+          "text": "Laagste positie: ketting op binnenblad en grootste tandkrans. Zet Junction A in de afstelmodus (knop tot het lampje brandt).",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 137
+          }
+        },
+        {
+          "text": "Gebruik [X] of [Y] tot er 0–0,5 mm speling is tussen ketting en binnenplaat. Druk op de knop tot het rode lampje uitgaat.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 138
+          }
+        },
+        {
+          "text": "Hoogste positie: ketting op buitenblad en grootste tandkrans, afstelmodus, en weer 0–0,5 mm speling tussen ketting en binnenplaat.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 142
+          }
+        },
+        {
+          "text": "Schakel voor en achter door alle versnellingen en controleer dat de ketting de kettinggeleider nergens raakt.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 138
+          }
+        }
+      ]
+    },
+    {
+      "id": "fd-wire",
+      "title": "Di2-draad naar de voorderailleur",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Een 500 mm-draad loopt via de poort bij de voorderailleur door de zitbuis naar de voorkant van het trapashuis.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 3
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "notFound": [],
+  "neededManuals": [],
+  "specs": [
+    {
+      "label": "Speling buitenplaat kettinggeleider tot buitenblad (hoogte)",
+      "value": "1 - 3 mm",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 40
+      }
+    },
+    {
+      "label": "Achterkant buitenplaat t.o.v. voorkant (uitlijning)",
+      "value": "0,5 - 1 mm naar binnen",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 41
+      }
+    },
+    {
+      "label": "Speling ketting tot buitenplaat (hoogste versnelling, schroef)",
+      "value": "0,5 - 1 mm",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 136
+      }
+    },
+    {
+      "label": "Speling ketting tot binnenplaat (laag en hoog, elektrisch)",
+      "value": "0 - 0,5 mm",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 138
+      }
+    }
+  ]
+}

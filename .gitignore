@@ -1,0 +1,9 @@
+# Handleidingen van fabrikanten en referentiefoto's: alleen lokaal (auteursrecht)
+manuals/*
+!manuals/.gitkeep
+reference/*
+!reference/.gitkeep
+
+node_modules/
+dist/
+.DS_Store

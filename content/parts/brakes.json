@@ -1,0 +1,650 @@
+{
+  "id": "brakes",
+  "name": "Schijfremmen",
+  "group": "Remmen & bediening",
+  "coverage": "goed",
+  "description": "Shimano Ultegra hydraulische schijfremmen (flat mount, ST-R8070-hendels) met intern gelegde leidingen door vork, frame en stuur.",
+  "tools": [
+    {
+      "label": "Kniptang voor buitenkabels/leidingen",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Inbussleutels 2, 4 en 5 mm",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 71
+      }
+    },
+    {
+      "label": "Ringsleutel 7 mm (ontluchtingsnippel)",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 71
+      }
+    },
+    {
+      "label": "SM-DISC olietrechter en oliestopper + trechteradapter",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 71
+      }
+    },
+    {
+      "label": "TL-LR15 borgringgereedschap + Engelse sleutel (Center Lock-remschijf)",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 72
+      }
+    },
+    {
+      "label": "Sleufkopschroevendraaier / plat gereedschap (zuigers terugduwen)",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 167
+      }
+    },
+    {
+      "label": "SHIMANO minerale olie (net geopende verpakking)",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 10
+      }
+    },
+    {
+      "label": "Isopropylalcohol en schone droge doeken",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 16
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Borgring Center Lock-remschijf",
+      "nmMin": 40,
+      "nmMax": 50,
+      "tool": "TL-LR15 + Engelse sleutel",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 72
+      }
+    },
+    {
+      "location": "Remklauwbevestigingsbouten (flat mount)",
+      "nmMin": 6,
+      "nmMax": 8,
+      "tool": "inbus",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 103
+      }
+    },
+    {
+      "location": "Remblokas",
+      "nmMin": 0.1,
+      "nmMax": 0.3,
+      "tool": "inbus",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 168
+      }
+    },
+    {
+      "location": "Ontluchtingsnippel remklauw",
+      "nmMin": 4,
+      "nmMax": 7,
+      "tool": "7 mm ringsleutel",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 97
+      }
+    },
+    {
+      "location": "Ontluchtingsschroef hendel",
+      "nmMin": 0.5,
+      "nmMax": 0.7,
+      "tool": "inbus",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 99
+      }
+    }
+  ],
+  "intervals": [
+    {
+      "label": "Dikte remblokken controleren",
+      "when": "Regelmatig (geen interval genoemd)",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 9
+      }
+    },
+    {
+      "label": "Minerale olie vervangen",
+      "when": "Als de olie in het reservoir zichtbaar verkleurd is",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 168
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "brakes-check",
+      "title": "Remmen controleren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Meet de dikte van de remblokken. Onder 0,5 mm niet meer gebruiken.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 9
+          }
+        },
+        {
+          "text": "Controleer de remschijf: niet gebruiken als hij gebarsten of vervormd is, als hij 1,5 mm of dunner is, of als het aluminium zichtbaar wordt.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 9
+          }
+        },
+        {
+          "text": "Controleer op lekkende vloeistof. Lekt er iets, rem dan niet meer met de fiets en laat hem nakijken.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 9
+          }
+        },
+        {
+          "text": "Voel je een pulserend gevoel bij het remmen, dan kunnen remschijf en/of remblokken overmatig versleten zijn. Stop met rijden en laat de fiets nakijken.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "brakes-pads",
+      "title": "Remblokken vervangen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Vervang de remblokken bij 0,5 mm, als er olie op blijft kleven, of als de veren van de remblokken de remschijf raken.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 167
+          }
+        },
+        {
+          "text": "Haal het wiel uit het frame en verwijder de remblokken en de houdclip.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 167
+          }
+        },
+        {
+          "text": "Maak de zuigers en de omgeving schoon.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 167
+          }
+        },
+        {
+          "text": "Duw de zuigers met een plat gereedschap zo ver mogelijk recht naar binnen, zonder ze te verdraaien. Gebruik geen scherp gereedschap.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 167
+          }
+        },
+        {
+          "text": "Plaats de nieuwe remblokken met de bout, de houdclip en het rode remblokafstandsstuk. Let bij blokken met koelvinnen op L en R. Remblokas: 0,1–0,3 Nm.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 168
+          }
+        },
+        {
+          "text": "Knijp de remgreep een paar keer in en controleer dat hij stugger wordt.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 168
+          }
+        },
+        {
+          "text": "Haal het afstandsstuk weg, plaats het wiel en controleer dat remschijf en remklauw elkaar niet raken. Zo wel: remklauw opnieuw afstellen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 168
+          }
+        },
+        {
+          "text": "Let op de inremperiode: de remkracht neemt geleidelijk toe, ook na het vervangen van remblokken of remschijf.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "brakes-wheel-out",
+      "title": "Wiel uitgenomen: remmen beschermen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Plaats remblokafstandsstukken zodra het wiel eruit is.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 16
+          }
+        },
+        {
+          "text": "Knijp de remgreep niet in zonder wiel; de zuigers komen dan verder naar buiten dan normaal.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 14
+          }
+        },
+        {
+          "text": "Is dat toch gebeurd, duw de remblokken voorzichtig open met een sleufkopschroevendraaier zonder het blokoppervlak te beschadigen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "brakes-clean",
+      "title": "Remmen reinigen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Gebruik isopropylalcohol, een zeepoplossing of een droge doek. Geen remreiniger of anti-piepmiddel uit de winkel: die kunnen afdichtingen beschadigen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 16
+          }
+        },
+        {
+          "text": "Laat geen olie of vet op remschijf en remblokken komen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 9
+          }
+        },
+        {
+          "text": "Verwijder de zuigers niet bij het reinigen van de remklauwen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "brakes-bleed",
+      "title": "Olie bijvullen en ontluchten (ST-R8070)",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Zet de fiets in de werkstandaard en bevestig de gele ontluchtingsspacer in de remklauw (remblokas 0,1–0,3 Nm).",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 91
+          }
+        },
+        {
+          "text": "Sla het remgreeprubber om en zet de hendel zo dat de bovenkant van de ontluchtingsschroef parallel aan de grond staat.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 92
+          }
+        },
+        {
+          "text": "Verwijder de ontluchtingsschroef en de O-ring zonder ze te laten vallen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 92
+          }
+        },
+        {
+          "text": "Bevestig de trechteradapter op de olietrechter en zet de trechter op de hendel.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 93
+          }
+        },
+        {
+          "text": "Zet de remklauw vast in een bankschroef.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 93
+          }
+        },
+        {
+          "text": "Zet een 7 mm ringsleutel op de ontluchtingsnippel, sluit de met olie gevulde spuit aan met de slanghouder en draai de nippel 1/8 slag open. Pers olie in tot er in de trechter geen luchtbellen meer verschijnen. Knijp de greep tussendoor niet steeds in.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 94
+          }
+        },
+        {
+          "text": "Draai de nippel even dicht en verwijder de spuit, met een schone doek over het uiteinde.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 94
+          }
+        },
+        {
+          "text": "Knijp de remhendel ongeveer 10 keer in.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 95
+          }
+        },
+        {
+          "text": "Sluit de slang met opvangzak aan op de nippel en draai de nippel los; olie en luchtbellen komen eruit. Zacht tikken of schudden aan leiding of remklauw helpt.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 95
+          }
+        },
+        {
+          "text": "Houd de trechter bijgevuld zodat er geen lucht wordt aangezogen. Draai de nippel dicht als er geen bellen meer komen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 96
+          }
+        },
+        {
+          "text": "Knijp de remgreep in en open en sluit de nippel snel (ongeveer een halve seconde). Herhaal dit 2 tot 3 keer.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 96
+          }
+        },
+        {
+          "text": "Draai de ontluchtingsnippel vast: 4–7 Nm.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 97
+          }
+        },
+        {
+          "text": "Kantel het stuur zodat de aangegeven zijde van de hendel parallel aan de grond staat en bedien de greep tot er geen bellen meer omhoog komen. De greep moet nu stijf aanvoelen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 98
+          }
+        },
+        {
+          "text": "Zet de kop van de ontluchtingsschroef parallel aan de grond, druk de oliestopper (O-ring naar beneden) in de trechter en verwijder trechter en adapter.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 99
+          }
+        },
+        {
+          "text": "Plaats de O-ring op de ontluchtingsschroef en draai hem dicht terwijl er olie uitloopt: 0,5–0,7 Nm. Bedien de greep hierbij niet. Veeg gemorste olie op.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 99
+          }
+        }
+      ]
+    },
+    {
+      "id": "brakes-oil",
+      "title": "Minerale olie vervangen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Vervang de olie als die in het reservoir zichtbaar verkleurd is.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 168
+          }
+        },
+        {
+          "text": "Sluit zak en slang aan op de ontluchtingsnippel, draai de nippel open en laat de olie weglopen; bedien de hendel om dat te versnellen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 168
+          }
+        },
+        {
+          "text": "Vul en ontlucht daarna volgens 'Olie bijvullen en ontluchten', met olie uit een nieuwe verpakking.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 168
+          }
+        }
+      ]
+    },
+    {
+      "id": "brakes-rotor",
+      "title": "Remschijf (Center Lock) monteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Plaats de remschijf en draai de borgring vast met TL-LR15 en een Engelse sleutel: 40–50 Nm.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 72
+          }
+        },
+        {
+          "text": "Vervang de remschijf als hij versleten, gebarsten of kromgetrokken is.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "brakes-caliper",
+      "title": "Remklauw (flat mount) monteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Verwijder de gele ontluchtingsspacer en plaats de remblokken met houdclip (remblokas 0,1–0,3 Nm).",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 100
+          }
+        },
+        {
+          "text": "Achter: steek remklauwbout C in het frame en controleer dat hij 13 mm uitsteekt; de juiste boutlengte hangt af van de framedikte.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 101
+          }
+        },
+        {
+          "text": "Monteer zo nodig de montagesteun op de remklauw (6–8 Nm) met de boutbevestigingspen volledig ingestoken; let op de richtingsaanduiding.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 102
+          }
+        },
+        {
+          "text": "Knijp de remgreep in en draai de remklauwbouten vast terwijl de remblokken tegen de schijf drukken: 6–8 Nm. Gebruik borgring of houdclip zoals aangegeven.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 103
+          }
+        }
+      ]
+    },
+    {
+      "id": "brakes-route-rear",
+      "title": "Achterremleiding leggen (Venge)",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Plaats een doorvoerrubber (grommet) op de leiding en steek de leiding in de poort van de liggende achtervork.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 5
+          }
+        },
+        {
+          "text": "Leid de leiding over het trapashuis en door de onderbuis omhoog tot hij bij het balhoofd naar buiten komt.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 5
+          }
+        },
+        {
+          "text": "Schuif een 'Churro' (schuimhuls) over de leiding in de onderbuis, van net onder de balhoofdlagerschaal tot net vóór het trapashuis.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "brakes-route-front",
+      "title": "Voorremleiding leggen (Venge)",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Leid de leiding door de vorkpoot en de vorkkroon tot hij uit de poort aan de voet/voorkant van de balhoofdbuis komt (gebruik een priem om te geleiden).",
+          "source": {
+            "manual": "venge-my19",
+            "page": 6
+          }
+        },
+        {
+          "text": "Plaats een doorvoerrubber bij de ingang op de vorkpoot.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 6
+          }
+        },
+        {
+          "text": "Monteer de remklauw volgens de remmenhandleiding en zet de leiding met sterke tape vast tegen de balhoofdbuis.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "brakes-length",
+      "title": "Leidinglengte bepalen en leiding inkorten",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "De leidinglengte hangt af van de uiteindelijke stuurpenhoogte: bepaal eerst je zithouding.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 6
+          }
+        },
+        {
+          "text": "Duw vóór het inkorten wat extra leiding in het stuur voor latere kleine aanpassingen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 9
+          }
+        },
+        {
+          "text": "Snijd de leiding haaks (90°) af; een schuine snede kan lekken.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 11
+          }
+        },
+        {
+          "text": "Gebruik nooit een snijring of insteekverbindingsstuk opnieuw.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 11
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "origin": "own",
+      "text": "Remmen zijn veiligheidskritisch. De Shimano-dealerhandleiding is bedoeld voor professionele monteurs: laat ontluchten en leidingwerk bij twijfel door een fietsenmaker doen.",
+      "source": null
+    },
+    {
+      "level": "warning",
+      "text": "Gebruik alleen SHIMANO minerale olie uit een net geopende verpakking; geen water of lucht in het systeem.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 10
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Remschijf en remklauwen worden heet: niet aanraken tijdens of direct na het rijden. Houd je vingers uit de buurt van een draaiende remschijf.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 9
+      }
+    },
+    {
+      "level": "caution",
+      "text": "Draag oogbescherming en handschoenen bij werken met minerale olie en werk in een geventileerde ruimte.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 12
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Gebruik geen velgremmen op wielen die voor schijfremmen bedoeld zijn.",
+      "source": {
+        "manual": "roval-my22",
+        "page": 2
+      }
+    }
+  ],
+  "notFound": [
+    "Remschijfmaat voor en achter op jouw fiets (140 of 160 mm)",
+    "Interval in kilometers voor remblokken of olie"
+  ],
+  "neededManuals": [],
+  "specs": [
+    {
+      "label": "Minimale dikte remblok (voering)",
+      "value": "0,5 mm; niet dunner gebruiken",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 9
+      }
+    },
+    {
+      "label": "Minimale dikte remschijf",
+      "value": "Niet gebruiken bij 1,5 mm of minder, of als het aluminium zichtbaar is",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 9
+      }
+    },
+    {
+      "label": "Remvloeistof",
+      "value": "Alleen originele SHIMANO minerale olie, uit een net geopende verpakking",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 10
+      }
+    }
+  ],
+  "caution": "remmen"
+}

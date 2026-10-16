@@ -1,0 +1,267 @@
+{
+  "id": "rd",
+  "name": "Achterderailleur",
+  "group": "Aandrijving",
+  "coverage": "goed",
+  "description": "Shimano Ultegra Di2-achterderailleur op een vervangbaar derailleurpad.",
+  "tools": [
+    {
+      "label": "Inbussleutel 4 mm (derailleurpad)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Momentsleutel",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Inbussleutels 2, 3 en 5 mm",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 20
+      }
+    },
+    {
+      "label": "Torx-sleutel nr. 10",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 20
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Derailleurpad (hanger)",
+      "nm": 4.5,
+      "inlbf": 40,
+      "tool": "4 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "location": "Bevestigingsbout achterderailleur",
+      "nmMin": 8,
+      "nmMax": 10,
+      "tool": "5 mm inbus",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 44
+      }
+    },
+    {
+      "location": "Derailleurwieltjes",
+      "nmMin": 2.5,
+      "nmMax": 5,
+      "tool": "3 mm inbus",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 164
+      }
+    }
+  ],
+  "intervals": [
+    {
+      "label": "Controleren of er geen ruimte zit tussen pad-uiteinde en derailleursteun",
+      "when": "Periodiek (geen interval genoemd)",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 44
+      }
+    },
+    {
+      "label": "Schakeleenheid reinigen en bewegende delen (mechaniek, wieltjes) smeren",
+      "when": "Op gezette tijden (geen interval genoemd)",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 16
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "rd-hanger",
+      "title": "Derailleurpad vervangen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Gebruik een origineel, compatibel derailleurpad (zie onderdeelnummers).",
+          "source": {
+            "manual": "venge-my19",
+            "page": 10
+          }
+        },
+        {
+          "text": "Draai de bout van het derailleurpad aan tot 4,5 Nm (4 mm inbus).",
+          "source": {
+            "manual": "venge-my19",
+            "page": 2
+          }
+        },
+        {
+          "text": "Monteer de achterderailleur: 8–10 Nm (5 mm inbus). Er mag geen ruimte zitten tussen pad-uiteinde en steun.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 44
+          }
+        }
+      ]
+    },
+    {
+      "id": "rd-adjust",
+      "title": "Achterderailleur afstellen (Di2)",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Zorg dat de accu geplaatst is.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 129
+          }
+        },
+        {
+          "text": "Eindstelbout: leg de ketting op de grootste tandkrans en zet het bovenste wieltje zo dicht mogelijk bij de tandkrans zonder dat de ketting vastloopt. Controleer daarna ook de kleinste tandkrans.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 129
+          }
+        },
+        {
+          "text": "Schakel naar de vijfde tandkrans.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 129
+          }
+        },
+        {
+          "text": "Houd de knop op Junction A (EW-RS910) ingedrukt tot het lampje brandt: afstelmodus. Laat dan los; blijf je drukken, dan start de RD-bescherming-reset.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 130
+          }
+        },
+        {
+          "text": "In de afstelmodus verplaatst schakelaar [X] het wieltje één stap naar binnen en [Y] één stap naar buiten (16 stappen elke kant).",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 131
+          }
+        },
+        {
+          "text": "Draai de crank en druk [X] tot de ketting de vierde tandkrans raakt en licht geluid maakt. Druk daarna 4 keer op [Y].",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 131
+          }
+        },
+        {
+          "text": "Druk op de knop tot het rode lampje uitgaat (schakelmodus). Schakel door alle versnellingen en controleer dat er nergens geluid is.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 132
+          }
+        },
+        {
+          "text": "Aanslagschroef laagste versnelling: op de grootste tandkrans vastdraaien tot hij het verbindingsstuk raakt. Niet te ver: dan schakelt het systeem slecht en kan de motor beschadigen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 133
+          }
+        },
+        {
+          "text": "Aanslagbout hoogste versnelling: op de kleinste tandkrans vastdraaien tot hij raakt, daarna één slag linksom terug.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 133
+          }
+        }
+      ]
+    },
+    {
+      "id": "rd-pulleys",
+      "title": "Derailleurwieltjes vervangen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Vervang de wieltjes met een 3 mm inbussleutel.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 164
+          }
+        },
+        {
+          "text": "Monteer ze met de pijl voor de draairichting zichtbaar vanaf de achterzijde van de derailleur.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 164
+          }
+        },
+        {
+          "text": "Aanhaalmoment: 2,5–5 Nm.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 164
+          }
+        }
+      ]
+    },
+    {
+      "id": "rd-wire",
+      "title": "Di2-draad naar de achterderailleur",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "De 750 mm-draad loopt door de liggende achtervork aan de aandrijfkant, over en naar de voorkant van het trapashuis (naar Junction B).",
+          "source": {
+            "manual": "venge-my19",
+            "page": 3
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "text": "Houd je vingers uit de derailleur als je schakelt: de motor stopt niet vanzelf.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 10
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Stel de aanslagschroeven altijd af; anders kan de ketting tussen spaken en grootste tandkrans komen en het wiel blokkeren.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 16
+      }
+    }
+  ],
+  "parts": [
+    {
+      "partNo": "S182600001",
+      "label": "Derailleurpad road disc thru-axle",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    },
+    {
+      "partNo": "S182600003",
+      "label": "Derailleurpad Tarmac disc (Shimano standard)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    }
+  ],
+  "notFound": [],
+  "neededManuals": []
+}

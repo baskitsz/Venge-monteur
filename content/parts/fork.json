@@ -1,0 +1,111 @@
+{
+  "id": "fork",
+  "name": "Voorvork",
+  "group": "Frame & cockpit",
+  "coverage": "deels",
+  "description": "Carbon voorvork met carbon balhoofdbuis en interne remleiding.",
+  "tools": [
+    {
+      "label": "Inbussleutel 6 mm (expanderplug)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Momentsleutel",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Expanderplug (compression plug) in de balhoofdbuis",
+      "nm": 9.0,
+      "inlbf": 80,
+      "tool": "6 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "intervals": [],
+  "tasks": [
+    {
+      "id": "fork-plug",
+      "title": "Expanderplug plaatsen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Plaats de expanderplug in de balhoofdbuis, met de sleuf van de plug tegenover de sleuf van de stuurpenbout en richting de voorkant van de fiets.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 6
+          }
+        },
+        {
+          "text": "Draai de plug aan tot 9,0 Nm (6 mm inbus).",
+          "source": {
+            "manual": "venge-my19",
+            "page": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "fork-steerer",
+      "title": "Balhoofdbuis inkorten",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Bepaal eerst je zithouding: de lengte van de remleidingen hangt af van de uiteindelijke stuurpenhoogte.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 6
+          }
+        },
+        {
+          "text": "Kort de balhoofdbuis nooit meer in dan 3 mm onder de bovenkant van de stuurpen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 6
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "text": "Geen vet of carbonpasta tussen stuurpen en balhoofdbuis, en de stuurpen niet op de balhoofdbuis draaien. Dit kan de vork beschadigen met breuk als gevolg.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 7
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Diepe krassen of gutsen in stuurpen of vork kunnen de onderdelen verzwakken.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 6
+      }
+    },
+    {
+      "level": "warning",
+      "text": "De expanderplug moet goed gepositioneerd zijn om het klemgebied van de stuurpen te ondersteunen.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 7
+      }
+    }
+  ],
+  "notFound": [
+    "Inspectie-interval vork"
+  ],
+  "neededManuals": [],
+  "caution": "carbon"
+}

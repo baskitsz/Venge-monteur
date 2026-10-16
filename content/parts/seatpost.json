@@ -1,0 +1,255 @@
+{
+  "id": "seatpost",
+  "name": "Zadelpen",
+  "group": "Frame & cockpit",
+  "coverage": "goed",
+  "description": "Venge carbon aero-zadelpen met wigklem (seatpost wedge); de Di2-accu en Junction A zitten in de zadelpen.",
+  "tools": [
+    {
+      "label": "Inbussleutels 2,5 en 4 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Momentsleutel",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Carbonmontagepasta (fiber paste)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Hoogwaardig vet",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Zadelpenklem (wigbout / seat collar)",
+      "nm": 6.2,
+      "inlbf": 55,
+      "tool": "4 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "location": "Di2-afdekplaat achter op de zadelpen",
+      "nm": 0.8,
+      "inlbf": 7,
+      "tool": "2,5 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "specs": [
+    {
+      "label": "Minimale insteekdiepte (frame en zadelpen)",
+      "value": "75 mm vanaf bovenkant klem; min/max-markering mag niet zichtbaar zijn",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    },
+    {
+      "label": "Maximale insteekdiepte maat 49",
+      "value": "150 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    },
+    {
+      "label": "Maximale insteekdiepte maat 52",
+      "value": "155 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    },
+    {
+      "label": "Maximale insteekdiepte maat 54",
+      "value": "170 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    },
+    {
+      "label": "Maximale insteekdiepte maat 56",
+      "value": "190 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    },
+    {
+      "label": "Maximale insteekdiepte maat 58",
+      "value": "210 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    },
+    {
+      "label": "Maximale insteekdiepte maat 61",
+      "value": "235 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    },
+    {
+      "label": "Leverbare lengtes",
+      "value": "300 mm en 390 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    }
+  ],
+  "intervals": [],
+  "tasks": [
+    {
+      "id": "seatpost-install",
+      "title": "Zadelpen plaatsen en zadelhoogte vastzetten",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Vet de contactvlakken tussen het bovenste en onderste wigdeel, de cilinder, en de boutdraad, boutkop en ring van de wigklem in.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 5
+          }
+        },
+        {
+          "text": "Breng carbonmontagepasta aan op de zadelpen en steek de zadelpen in de zitbuis. Gebruik geen vet tussen zadelpen en zitbuis.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 5
+          }
+        },
+        {
+          "text": "Zet de wigklem in elkaar en plaats die in het frame, vóór de zadelpen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 5
+          }
+        },
+        {
+          "text": "Controleer de minimale (75 mm) en maximale insteekdiepte voor jouw framemaat. De zadelpen mag de uitsparing voor de achterband niet raken.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 5
+          }
+        },
+        {
+          "text": "Bepaal de zadelhoogte en draai de wigbout aan tot 6,2 Nm.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "seatpost-remove",
+      "title": "Zadelpen uitnemen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Verwijder eerst Junction A (EW-RS910 / laadpoort) uit de zadelpen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 3
+          }
+        },
+        {
+          "text": "Ontkoppel daarna de 1200 mm-draad uit de zitbuis. Pas dan de zadelpen uitnemen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 3
+          }
+        },
+        {
+          "text": "Neem je de zadelpen vaak uit (bijv. voor transport), dan kan een EW-JC200-tussenstuk met een extra 500 mm-draad aan het eind van de zitbuisdraad worden geplaatst.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 3
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "text": "Houd je aan de minimale en maximale insteekdiepte; anders kunnen frame of zadelpen beschadigen.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Een te los aangedraaide zadelpen kan wegzakken, het frame beschadigen en tot een val leiden.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    },
+    {
+      "level": "caution",
+      "text": "Geen vet tussen zadelpen en zitbuis: vet vermindert de klemkracht. Gebruik carbonmontagepasta.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Controleer zadelpen en zitbuis op bramen of scherpe randen en verwijder die met fijn schuurpapier.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 5
+      }
+    }
+  ],
+  "parts": [
+    {
+      "partNo": "S184900010",
+      "label": "Wigklem zadelpen",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    },
+    {
+      "partNo": "S189900103",
+      "label": "Di2-afdekplaat zadelpen met schroeven",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    }
+  ],
+  "notFound": [
+    "Interval voor zadelpen uitnemen, reinigen en opnieuw monteren"
+  ],
+  "neededManuals": [],
+  "caution": "carbon"
+}

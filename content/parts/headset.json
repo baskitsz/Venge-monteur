@@ -1,0 +1,169 @@
+{
+  "id": "headset",
+  "name": "Balhoofd & spacers",
+  "group": "Frame & cockpit",
+  "coverage": "deels",
+  "description": "Venge-specifiek balhoofd met compressiering, aero-spacers en onder-/bovenovergang (transitions).",
+  "tools": [
+    {
+      "label": "Hoogwaardig vet",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "torques": [],
+  "intervals": [],
+  "tasks": [
+    {
+      "id": "headset-adjust",
+      "title": "Balhoofd afstellen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Zit de balhoofdbuis 3 mm onder de stuurpen: trek de gesloten stuurpenkap omhoog om bij de topcap te komen. De kap kan altijd zo verwijderd worden om het balhoofd af te stellen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 7
+          }
+        },
+        {
+          "text": "Steekt de balhoofdbuis boven de stuurpen uit (stuurpenkap met gat): het balhoofd kan op elk moment worden afgesteld.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "headset-bearings",
+      "title": "Balhoofdlagers (her)monteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Vet het onderste lager in en plaats het in de onderste lagerschaal.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 7
+          }
+        },
+        {
+          "text": "Vet het bovenste lager in en schuif het over de balhoofdbuis, met de remleidingen en de Di2-draad tussen lager en balhoofdbuis.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 7
+          }
+        },
+        {
+          "text": "Plaats de compressiering; leid de remleidingen en de draad door de juiste sleuven en zet de ring in het bovenste lager.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 7
+          }
+        },
+        {
+          "text": "Zet de onderste overgang (lower transition) op de compressiering: de twee pinnen moeten in de twee gaten van de ring vallen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 7
+          }
+        },
+        {
+          "text": "Leid leidingen en draad door de voorste gaten van onderste overgang, spacers en bovenste overgang. De remleidingen kruisen elkaar niet.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "headset-spacers",
+      "title": "Stuurhoogte aanpassen met spacers",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "De aero-spacers zijn gedeeld, zodat je ze kunt plaatsen of verwijderen zonder de stuurpen te demonteren.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 7
+          }
+        },
+        {
+          "text": "Tussen onderste en bovenste overgang mag maximaal 35 mm aan spacers.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 7
+          }
+        },
+        {
+          "text": "Boven de stuurpenkap mag maximaal 10 mm aan spacers onder de topcap.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 7
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "text": "Gebruik bij de aero-spacers altijd zowel de onderste als de bovenste overgang. Bij een 12°-Venge-stuurpen is een speciale bovenovergang nodig (S192500006).",
+      "source": {
+        "manual": "venge-my19",
+        "page": 7
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Niet meer dan 10 mm spacers tussen stuurpenkap en topcap.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 7
+      }
+    }
+  ],
+  "parts": [
+    {
+      "partNo": "S162500005",
+      "label": "Bovenste balhoofdlager",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    },
+    {
+      "partNo": "S182500010",
+      "label": "Compressiering",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    },
+    {
+      "partNo": "S182500011",
+      "label": "Spacerset (9 delen)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    },
+    {
+      "partNo": "S182500012",
+      "label": "Topcap en bout",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    }
+  ],
+  "notFound": [
+    "Aandraaimoment topcapbout / voorspanning balhoofd",
+    "Lagermaat onderste lager",
+    "Interval voor lagers controleren of vervangen"
+  ],
+  "neededManuals": []
+}

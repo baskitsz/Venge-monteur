@@ -1,0 +1,422 @@
+{
+  "id": "di2",
+  "name": "Di2-accu & bekabeling",
+  "group": "Elektronica",
+  "coverage": "goed",
+  "description": "Di2-accu in de zadelpen, Junction A (laadpoort, EW-RS910) achter op de zadelpen en Junction B (SM-JC41) in de onderbuis vóór het trapashuis.",
+  "tools": [
+    {
+      "label": "Inbussleutel 2,5 mm (afdekplaat)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Momentsleutel",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Acculader SM-BCR2 met USB-kabel",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 150
+      }
+    },
+    {
+      "label": "USB-adapter 5,0 V met minimaal 1,0 A",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 6
+      }
+    },
+    {
+      "label": "TL-EW02 (stekkers losmaken)",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 124
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Afdekplaat Junction A op de zadelpen",
+      "nm": 0.8,
+      "inlbf": 7,
+      "tool": "2,5 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "specs": [
+    {
+      "label": "Onderbuis (trapas naar hendel)",
+      "value": "1400 mm (suggestie)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 3
+      }
+    },
+    {
+      "label": "Zitbuis (trapas naar voorderailleur)",
+      "value": "500 mm (suggestie)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 3
+      }
+    },
+    {
+      "label": "Zitbuis (trapas naar Junction A)",
+      "value": "1200 mm (suggestie)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 3
+      }
+    },
+    {
+      "label": "Liggende achtervork (trapas naar achterderailleur)",
+      "value": "750 mm (suggestie)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 3
+      }
+    },
+    {
+      "label": "Zadelpen (accu naar Junction A)",
+      "value": "500 mm (suggestie)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 3
+      }
+    },
+    {
+      "label": "Stuur (rechter naar linker hendel)",
+      "value": "750 mm (suggestie)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 3
+      }
+    },
+    {
+      "label": "Laadtijd",
+      "value": "Ca. 1,5 uur via USB-adapter, ca. 3 uur via een pc",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 152
+      }
+    },
+    {
+      "label": "Temperatuur bij laden",
+      "value": "0 °C - 45 °C",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 8
+      }
+    },
+    {
+      "label": "Temperatuur bij gebruik",
+      "value": "-10 °C - 50 °C",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 8
+      }
+    }
+  ],
+  "intervals": [
+    {
+      "label": "Accu laden tijdens lange opslag",
+      "when": "Ongeveer eens per zes maanden",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 13
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "di2-battery",
+      "title": "Accu in de zadelpen plaatsen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Monteer de plugset op de accu: boven- en onderste rubberen plug, metalen bovenclip en kunststof onderste borgclip.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        },
+        {
+          "text": "Schuif de accu in de zadelpen met de stekker naar beneden.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "di2-junction-a",
+      "title": "Junction A (laadpoort) aansluiten",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Verwijder de afdekplaat achter op de zadelpen en neem Junction A (EW-RS910) eruit.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        },
+        {
+          "text": "Steek een 500 mm-draad in Junction A en voer die door de zadelpen naar beneden; sluit hem aan op de onderkant van de accu.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        },
+        {
+          "text": "Voer de 1200 mm-draad uit de zitbuis omhoog door de zadelpen tot hij uit de opening van Junction A komt en sluit hem aan op de tweede poort.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        },
+        {
+          "text": "Plaats Junction A terug en draai de bouten van de afdekplaat aan tot 0,8 Nm.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "di2-junction-b",
+      "title": "Junction B bij de trapas",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Er is geen poort bij het trapashuis: voor toegang tot Junction B moet de crank eruit, en afhankelijk van het type ook de trapas.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 3
+          }
+        },
+        {
+          "text": "Haal alle vier de draden door het naar voren gerichte gat in het trapashuis naar buiten.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 3
+          }
+        },
+        {
+          "text": "Sluit de vier draden aan op Junction B en leg box en draden terug in de onderbuis, vóór het trapashuis.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "di2-charge",
+      "title": "Accu opladen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Sluit de laadkabel van de SM-BCR2-lader aan op de laadpoort van Junction A.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 152
+          }
+        },
+        {
+          "text": "Gebruik een USB-adapter van 5,0 V met minimaal 1,0 A, of een USB-poort van een pc (geen USB-hub).",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 6
+          }
+        },
+        {
+          "text": "Laad binnenshuis, uit regen en wind.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 14
+          }
+        },
+        {
+          "text": "Laden duurt ongeveer 1,5 uur via een adapter en ongeveer 3 uur via een pc. Als het oranje LAAD-lampje uitgaat, is de accu vol.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 152
+          }
+        },
+        {
+          "text": "Is de accu na 4 uur nog niet vol, stop dan met laden.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 8
+          }
+        },
+        {
+          "text": "Koppel de kabel los en berg de lader op. Fiets niet met de lader aangesloten.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 14
+          }
+        }
+      ]
+    },
+    {
+      "id": "di2-charge-fail",
+      "title": "Laden lukt niet",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "FOUT-lampje knippert: de omgevingstemperatuur valt waarschijnlijk buiten het bereik. Laad op een geschikte temperatuur.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 154
+          }
+        },
+        {
+          "text": "LAAD-lampje knippert: de adapter levert minder dan 1,0 A of je gebruikt een USB-hub.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 154
+          }
+        },
+        {
+          "text": "Helpt dat niet, dan kan de accu of Junction A defect zijn: neem contact op met de fietsenmaker.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 154
+          }
+        }
+      ]
+    },
+    {
+      "id": "di2-storage",
+      "title": "Accu bij lange opslag",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Laad de accu op voordat je de fiets lang wegzet; bewaar hem bij 50% of meer (groen lampje).",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 13
+          }
+        },
+        {
+          "text": "Laad hem ongeveer eens per zes maanden bij, en laad een lege accu zo snel mogelijk op.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 13
+          }
+        }
+      ]
+    },
+    {
+      "id": "di2-reset",
+      "title": "Systeem resetten",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Werkt het systeem niet goed, koppel dan de stekker van de accu los.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 17
+          }
+        },
+        {
+          "text": "Sluit hem na ongeveer een minuut weer aan.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 17
+          }
+        }
+      ]
+    },
+    {
+      "id": "di2-firmware",
+      "title": "Firmware bijwerken (E-TUBE PROJECT)",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Gebruik E-TUBE PROJECT (pc of smartphone/tablet) om firmware bij te werken en instellingen aan te passen, bijvoorbeeld na het vervangen van een onderdeel of bij storingen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 17
+          }
+        },
+        {
+          "text": "Gebruik altijd de nieuwste versie van E-TUBE PROJECT.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 17
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "info",
+      "text": "Voordat je de zadelpen uitneemt: eerst Junction A verwijderen en dan de 1200 mm-draad ontkoppelen.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 3
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Maak de fiets niet schoon met een hogedrukreiniger en laat geen water in de E-TUBE-poorten komen.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 13
+      }
+    },
+    {
+      "level": "caution",
+      "text": "Koppel de kleine waterdichte stekkers niet vaker los dan nodig en gebruik altijd de TL-EW02.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 124
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Laat de accu niet op plekken boven 60 °C liggen, zoals in de zon of in een warme auto.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 6
+      }
+    }
+  ],
+  "parts": [
+    {
+      "partNo": "S199900003",
+      "label": "Accubevestigingsset (Di2-grommet)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    },
+    {
+      "partNo": "S189900103",
+      "label": "Di2-afdekplaat zadelpen met schroeven",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    }
+  ],
+  "notFound": [
+    "Welk accutype in jouw zadelpen zit (SM-BTR2 of BT-DN110)"
+  ],
+  "neededManuals": []
+}

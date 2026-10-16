@@ -1,0 +1,205 @@
+{
+  "id": "frame",
+  "name": "Frame",
+  "group": "Frame & cockpit",
+  "coverage": "deels",
+  "description": "Carbon Venge-frame (MY19) met interne kabelgeleiding en OSBB/BB30-trapashuis.",
+  "tools": [
+    {
+      "label": "Inbussleutel 3 mm (bidonhouder)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Momentsleutel",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Bidonhouder",
+      "nm": 2.8,
+      "inlbf": 25,
+      "tool": "3 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "intervals": [
+    {
+      "label": "Carbon inspecteren op schade",
+      "when": "Voor elke rit en na elke val",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Oppervlakken van de fiets reinigen",
+      "when": "Voor elke rit",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Aandraaimomenten van alle bouten nacontroleren",
+      "when": "Na de eerste rit en daarna regelmatig",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "frame-inspect",
+      "title": "Carbon frame inspecteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Controleer het frame op rafels, gutsen, krassen door de lak, afschilferen, verbuiging of andere schade.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 2
+          }
+        },
+        {
+          "text": "Bekijk alle oppervlakken in fel zonlicht op kleine haarscheurtjes of vermoeiing bij spanningspunten: naden, gaten en contactpunten met andere onderdelen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 2
+          }
+        },
+        {
+          "text": "Let tijdens het rijden op kraakgeluiden; kraken kan op een probleem wijzen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 2
+          }
+        },
+        {
+          "text": "Zie je schade, scheurtjes of corrosie, of hoor je kraken: stop met rijden en laat de fiets inspecteren door een Specialized-dealer.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-clean",
+      "title": "Frame reinigen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Gebruik een schone, vochtige doek en fietsreinigingsmiddel.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 2
+          }
+        },
+        {
+          "text": "Spuit geen hogedrukwater op de lagers. Ook water uit een tuinslang kan langs lagerafdichtingen en crankverbindingen binnendringen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-stand",
+      "title": "Fiets in een montagestandaard zetten",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Klem de standaard op de zadelpen, nooit op het frame. Klemmen op het frame kan (onzichtbare) schade veroorzaken.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "frame-bottle",
+      "title": "Bidonhouder (her)monteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Draai de bouten van de bidonhouder aan met een 3 mm inbus tot 2,8 Nm.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 2
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "text": "Maximaal rijdersgewicht (inclusief kleding en uitrusting) voor de carbon onderdelen: 109 kg.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 1
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Bedoeld voor gebruik op de weg (Condition 1).",
+      "source": {
+        "manual": "venge-my19",
+        "page": 1
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Gebruik alleen originele Venge-specifieke onderdelen (o.a. zadelpen, balhoofd, kabelgeleiders). Pas het frame nooit aan: niet schuren, boren, vijlen of onderdelen verwijderen.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 1
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Specialized schrijft voor dat montage, onderhoud en reparatie door een geautoriseerde Specialized-dealer gebeuren.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "level": "caution",
+      "text": "Zoute lucht (kust, winter) kan galvanische corrosie veroorzaken, onder andere aan de crankas en bouten. Bij corrosie of scheuren moet het onderdeel worden vervangen.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "level": "caution",
+      "text": "Stel de fiets niet langdurig bloot aan direct zonlicht of hitte, zoals in een auto in de zon of bij een radiator.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "notFound": [
+    "Interval in kilometers of tijd voor frame-inspectie door de dealer",
+    "Lakherstel / kleine beschadigingen"
+  ],
+  "neededManuals": [
+    "Specialized Bicycle Owner's Manual (algemene handleiding waar de Venge-handleiding naar verwijst)"
+  ],
+  "caution": "carbon"
+}

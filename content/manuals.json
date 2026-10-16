@@ -1,0 +1,60 @@
+{
+  "_info": "Register van handleidingen. 'file' is de bestandsnaam in manuals/. De PDF's zelf worden NIET gepubliceerd (auteursrecht); de site toont alleen eigen samenvattingen met paginaverwijzing.",
+  "manuals": [
+    {
+      "id": "venge-my19",
+      "file": "0000104623.pdf",
+      "title": "Specialized Venge MY19 User Manual",
+      "docNumber": "0000104623_UM_EN_R2, 07/18",
+      "language": "en",
+      "pages": 10,
+      "use": "bron",
+      "note": "Framespecifiek voor de Venge (2019). Paginanummers = PDF-pagina's (gelijk aan de gedrukte nummers).",
+      "short": "Venge-handleiding"
+    },
+    {
+      "id": "roval-my22",
+      "file": "MY22_ROVAL_WHEELSETS_OWNER'S_MANUAL_ENGLISH.pdf",
+      "title": "Roval Road, Gravel & Mountain Wheelsets Owner's Manual (MY22)",
+      "docNumber": "0000164421_UM_R3, 05/21",
+      "language": "en",
+      "pages": 7,
+      "use": "bron",
+      "note": "Algemene handleiding voor alle Roval-wielsets, niet specifiek voor de CL 50 Disc uit 2019. Paginanummers = PDF-pagina's.",
+      "short": "Roval-handleiding"
+    },
+    {
+      "id": "shimano-dm-r8050",
+      "file": "DM-R8050-05-DUT.pdf",
+      "title": "Shimano Dealerhandleiding ULTEGRA R8050-serie (Di2), Nederlands",
+      "docNumber": "DM-R8050-05",
+      "language": "nl",
+      "pages": 169,
+      "use": "bron",
+      "note": "Dealerhandleiding voor professionele monteurs. Dekt hendels (ST-R8070), derailleurs, Di2, hydraulische schijfremmen en remschijfmontage; niet de cassette, crank of kettingslijtage. Paginanummers = PDF-pagina's.",
+      "short": "Shimano DM-R8050"
+    },
+    {
+      "id": "specialized-accessory-mount",
+      "file": "SPECIALIZED_STEM_ACCESSORY_MOUNT.pdf",
+      "title": "Specialized Stem Accessory Mount (schema)",
+      "docNumber": "0000178048_SC_R2, 08/25",
+      "language": "en",
+      "pages": 3,
+      "use": "bron",
+      "note": "Onderdelenschema van de accessoiremount; geschikt voor o.a. de Venge-stuurpen. Let op: p.1 is een voorblad; paginaverwijzingen zijn PDF-pagina's (gedrukte nummer + 1).",
+      "short": "Specialized accessoiremount"
+    },
+    {
+      "id": "tarmac-sl7-nl",
+      "file": "2021_TARMAC_SL7_USER_MANUAL_DUTCH.pdf",
+      "title": "Specialized Tarmac SL7 Gebruikershandleiding (NL, 2021)",
+      "docNumber": null,
+      "language": "nl",
+      "pages": 32,
+      "use": "alleen-terminologie",
+      "note": "Handleiding van een ander frame. Wordt alleen gebruikt voor Nederlandse vaktermen, nooit als bron voor waarden of stappen op de Venge.",
+      "short": "Tarmac SL7 (NL)"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "stem",
+  "name": "Stuurpen",
+  "group": "Frame & cockpit",
+  "coverage": "goed",
+  "description": "Venge aero-stuurpen met accessoiremount (Barfly-standaard) en kabelklem onder de stuurpen.",
+  "tools": [
+    {
+      "label": "Inbussleutels 3 en 4 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Momentsleutel",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Blauwe schroefdraadborging",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Stuurpenbouten (kruislings)",
+      "nm": 5.1,
+      "inlbf": 45,
+      "tool": "4 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "location": "Kabelklem onder stuurpen (stem cable bat)",
+      "nm": 3.0,
+      "inlbf": 26.5,
+      "tool": "3 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "location": "Accessoiremount",
+      "nm": 2.7,
+      "inlbf": 24,
+      "tool": "3 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "intervals": [],
+  "tasks": [
+    {
+      "id": "stem-faceplate",
+      "title": "Stuur in de stuurpen klemmen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Plaats de voorplaat en de stuurpenbouten. Stel de zijdelingse positie en de hoek van het stuur af.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 9
+          }
+        },
+        {
+          "text": "Draai de bouten kruislings aan (volgorde 1-2-3-4) tot 5,1 Nm.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 9
+          }
+        }
+      ]
+    },
+    {
+      "id": "stem-cablebat",
+      "title": "Kabelklem onder de stuurpen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Monteer de kabelklem om remleidingen en Di2-draad onder de stuurpen vast te zetten.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 9
+          }
+        },
+        {
+          "text": "Draai de bout aan tot 3,0 Nm. Klem de remleidingen of de Di2-draad niet af.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 9
+          }
+        }
+      ]
+    },
+    {
+      "id": "stem-mount",
+      "title": "Accessoiremount (Garmin-houder) monteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Breng blauwe schroefdraadborging aan op de bevestigingsbout en monteer de mount op de voorplaat van de stuurpen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 8
+          }
+        },
+        {
+          "text": "Bepaal de hoek van de mount en draai aan tot 2,7 Nm.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 8
+          }
+        },
+        {
+          "text": "Voor de computerhouder zijn inzetstukken beschikbaar voor o.a. Garmin, Wahoo en Bryton.",
+          "source": {
+            "manual": "specialized-accessory-mount",
+            "page": 3
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "text": "Geen vet of carbonpasta tussen stuurpen en balhoofdbuis, en de stuurpen niet op de balhoofdbuis draaien.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 7
+      }
+    },
+    {
+      "level": "info",
+      "text": "Sommige vroege Venge-stuurpennen hebben een dunne shim (tekst 'INSTALL SHIM' bij de klembouten). Staat die tekst er, dan is de shim verplicht.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 7
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Gebruik je een standaard stuurpen, kies dan een stuurpen met sleufklem; geen interne wigklem. Specialized raadt stuurpennen van andere merken af op de carbon balhoofdbuis.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 8
+      }
+    }
+  ],
+  "notFound": [],
+  "neededManuals": [],
+  "parts": [
+    {
+      "partNo": "S219900020",
+      "label": "Specialized-accessoiremountset (past op de Venge-stuurpen)",
+      "source": {
+        "manual": "specialized-accessory-mount",
+        "page": 2
+      }
+    }
+  ]
+}

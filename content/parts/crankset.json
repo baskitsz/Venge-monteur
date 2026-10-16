@@ -1,0 +1,44 @@
+{
+  "id": "crankset",
+  "name": "Crankstel",
+  "group": "Aandrijving",
+  "coverage": "geen",
+  "description": "Shimano Ultegra-crankstel.",
+  "tools": [],
+  "torques": [],
+  "intervals": [],
+  "tasks": [
+    {
+      "id": "crankset-install",
+      "title": "Crank monteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Monteer de crank volgens de specificaties van de crankfabrikant.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 3
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "caution",
+      "text": "Zoute lucht kan galvanische corrosie van de crankas veroorzaken en de levensduur verkorten.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "notFound": [
+    "Aandraaimomenten crankarmen en kettingbladbouten",
+    "Kettingbladslijtage",
+    "Onderhoud powermeter: zie onderdeel powermeter"
+  ],
+  "neededManuals": [
+    "Shimano FC-R8000 dealer manual (crankstel)"
+  ]
+}

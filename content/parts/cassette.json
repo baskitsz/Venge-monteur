@@ -1,0 +1,51 @@
+{
+  "id": "cassette",
+  "name": "Cassette",
+  "group": "Aandrijving",
+  "coverage": "geen",
+  "description": "11-speed Shimano Ultegra-cassette.",
+  "tools": [],
+  "torques": [],
+  "intervals": [
+    {
+      "label": "Versnellingen reinigen met een neutraal schoonmaakmiddel",
+      "when": "Periodiek (geen interval genoemd)",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 14
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "cassette-clean",
+      "title": "Cassette reinigen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Reinig de tandkransen periodiek met een neutraal schoonmaakmiddel.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 14
+          }
+        },
+        {
+          "text": "Gebruik geen verdunner of agressieve oplosmiddelen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 13
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "notFound": [
+    "Aandraaimoment lockring",
+    "Benodigd gereedschap (cassettesleutel, kettingzweep)",
+    "Slijtagecontrole"
+  ],
+  "neededManuals": [
+    "Shimano CS-R8000 cassette (dealer manual)"
+  ]
+}

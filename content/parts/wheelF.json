@@ -1,0 +1,202 @@
+{
+  "id": "wheelF",
+  "name": "Voorwiel",
+  "group": "Wielen",
+  "coverage": "deels",
+  "description": "Roval CL 50 Disc carbon wiel met steekas. De Roval-handleiding is algemeen voor alle Roval-wielsets.",
+  "tools": [
+    {
+      "label": "Inbussleutel 6 mm (steekas)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Momentsleutel",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Spaakhouder (bij richten)",
+      "source": {
+        "manual": "roval-my22",
+        "page": 2
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Voorsteekas",
+      "nm": 15,
+      "inlbf": 133,
+      "tool": "6 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "specs": [
+    {
+      "label": "Steekas voor",
+      "value": "12 mm, 100 mm inbouwbreedte, lengte 127,5 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    }
+  ],
+  "intervals": [
+    {
+      "label": "Wiel inspecteren (rond, schoon, onbeschadigd)",
+      "when": "Voor elke rit (mechanische veiligheidscontrole)",
+      "source": {
+        "manual": "roval-my22",
+        "page": 2
+      }
+    },
+    {
+      "label": "Carbon velg inspecteren op schade",
+      "when": "Voor elke rit en na elke val of harde klap",
+      "source": {
+        "manual": "roval-my22",
+        "page": 3
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "wheelF-install",
+      "title": "Wiel plaatsen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Plaats het wiel en draai de steekas aan tot 15 Nm (6 mm inbus).",
+          "source": {
+            "manual": "venge-my19",
+            "page": 2
+          }
+        },
+        {
+          "text": "Controleer of het wiel rond loopt en de band goed op spanning is.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "wheelF-clean",
+      "title": "Wiel reinigen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Was het wiel alleen met mild zeepsop.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 2
+          }
+        },
+        {
+          "text": "Droog met een schone, zachte doek.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "wheelF-inspect",
+      "title": "Carbon velg inspecteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Controleer op rafels, gutsen, krassen door de lak, afschilferen, verbuiging of andere schade.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 3
+          }
+        },
+        {
+          "text": "Bekijk het wiel in fel zonlicht op haarscheurtjes bij spanningspunten en luister tijdens het rijden naar kraken.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 3
+          }
+        },
+        {
+          "text": "Bij schade, scheurtjes of kraken: niet meer rijden en laten inspecteren door een Specialized/Roval-dealer.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "wheelF-true",
+      "title": "Wiel richten",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Draai de spaaknippel vanaf de bandzijde van de velg en houd de spaak vast met een spaakhouder zodat die niet meedraait.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 2
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "text": "Maximaal systeemgewicht (rijder plus uitrusting) voor Roval-wielen: 109 kg, tenzij Roval schriftelijk anders aangeeft.",
+      "source": {
+        "manual": "roval-my22",
+        "page": 2
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Stel carbon niet langdurig bloot aan zon of hitte. Op een trekhaakdrager minimaal 460 mm afstand tot de uitlaat; controleer de wielen als ze warmer dan 50 °C zijn geworden.",
+      "source": {
+        "manual": "roval-my22",
+        "page": 3
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Gebruik bij carbon velgen geen bandenlichters die puntbelasting geven op de dunne velgrand (zoals Park Tool TL-1).",
+      "source": {
+        "manual": "roval-my22",
+        "page": 3
+      }
+    }
+  ],
+  "parts": [
+    {
+      "partNo": "S180200004",
+      "label": "Steekas voor 100 x 12 mm, 127,5 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    }
+  ],
+  "notFound": [
+    "Spaakspanning",
+    "Naaf- en lageronderhoud (Roval verwijst naar dtswiss.com)",
+    "Interval in kilometers voor naafonderhoud"
+  ],
+  "neededManuals": [
+    "DT Swiss-naafhandleiding (servicedocument van de naaf in je Roval CL 50)",
+    "Eventueel de specifieke Roval CL 50 Disc (MY19) technische gegevens"
+  ],
+  "caution": "carbon"
+}

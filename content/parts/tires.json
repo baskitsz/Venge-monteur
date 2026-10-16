@@ -1,0 +1,248 @@
+{
+  "id": "tires",
+  "name": "Banden",
+  "group": "Wielen",
+  "coverage": "deels",
+  "description": "S-Works Turbo-banden op Roval-velgen (geschikt voor binnenband of tubeless).",
+  "tools": [
+    {
+      "label": "Kunststof bandenlichters",
+      "source": {
+        "manual": "roval-my22",
+        "page": 4
+      }
+    },
+    {
+      "label": "Velglint of tubeless-plugs",
+      "source": {
+        "manual": "roval-my22",
+        "page": 4
+      }
+    }
+  ],
+  "torques": [],
+  "intervals": [
+    {
+      "label": "Bandenspanning en staat van de banden controleren",
+      "when": "Voor elke rit (mechanische veiligheidscontrole)",
+      "source": {
+        "manual": "roval-my22",
+        "page": 2
+      }
+    },
+    {
+      "label": "Tubeless: hoeveelheid dichtmiddel controleren en bijvullen",
+      "when": "Periodiek (geen interval genoemd)",
+      "source": {
+        "manual": "roval-my22",
+        "page": 6
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tires-pressure",
+      "title": "Bandenspanning",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Raadpleeg rovalcomponents.com of de Owner's Manual voor de aanbevolen spanning.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 2
+          }
+        },
+        {
+          "text": "Ga nooit boven de maximale spanning van velg of band; de laagste van de twee geldt.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 2
+          }
+        },
+        {
+          "text": "Tubeless: gebruik als vuistregel minder druk dan met binnenband, maar niet te laag.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "tires-tube",
+      "title": "Band met binnenband monteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Leg velglint dat de spaakgaten afdekt maar niet tegen de velgflanken omhoog komt; beperk overlap.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 3
+          }
+        },
+        {
+          "text": "Controleer of de binnenband de juiste maat voor de band heeft.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 4
+          }
+        },
+        {
+          "text": "Leg één hiel van de band op de velg, zo nodig met kunststof bandenlichters.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 4
+          }
+        },
+        {
+          "text": "Steek het ventiel door het ventielgat, pomp de binnenband iets op en duw hem in de band.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 4
+          }
+        },
+        {
+          "text": "Leg de tweede hiel op de velg en zorg dat de binnenband volledig in de band zit en nergens bekneld zit.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 4
+          }
+        },
+        {
+          "text": "Pomp iets op en knijp de hielen naar elkaar toe om te controleren dat de binnenband er nergens tussen zit.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 4
+          }
+        },
+        {
+          "text": "Plaats de ventielmoer en pomp op terwijl je controleert dat de hiel gelijkmatig zit; de lijn op de band moet overal even ver boven de velg staan.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 4
+          }
+        },
+        {
+          "text": "Pomp op tot de gewenste spanning.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "tires-tubeless",
+      "title": "Tubeless band monteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Maak de velg luchtdicht met tubeless-plugs of tubeless-velglint (niet allebei). Controleer dat de o-ring om alle vier lipjes van een plug zit en dat de plug vlak ligt.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 4
+          }
+        },
+        {
+          "text": "Plaats het juiste Roval tubeless-ventiel, volledig aangedrukt en met de moer vast.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 5
+          }
+        },
+        {
+          "text": "Leg de eerste hiel in het diepe deel van de velg, met het ventiel tussen beide hielen.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 5
+          }
+        },
+        {
+          "text": "Begin met de tweede hiel tegenover het ventiel en laat een opening om dichtmiddel in te gieten (hoeveelheid volgens de fabrikant van het dichtmiddel). Alternatief: ventielkern eruit en via het ventiel vullen.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 5
+          }
+        },
+        {
+          "text": "Draai het wiel zodat het dichtmiddel onderin zit en monteer de rest van de hiel.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 5
+          }
+        },
+        {
+          "text": "Pomp iets op en draai het wiel in verschillende richtingen om het dichtmiddel te verdelen.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 5
+          }
+        },
+        {
+          "text": "Pomp op tot de hiel overal goed zit, zonder de maximale spanning te overschrijden.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 5
+          }
+        },
+        {
+          "text": "Komt er dichtmiddel uit het ventiel of de spaakgaten, dan is de velg niet goed afgedicht: controleer ventiel en velglint.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 5
+          }
+        },
+        {
+          "text": "Ga direct na het vullen fietsen zodat het dichtmiddel in de poriën van de band trekt; volledig afdichten kan een paar ritten duren.",
+          "source": {
+            "manual": "roval-my22",
+            "page": 6
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "text": "Gebruik geen luchtslang van een tankstation of compressor: de band kan te snel oplopen in druk en klappen.",
+      "source": {
+        "manual": "roval-my22",
+        "page": 2
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Een band die niet goed zit of met te hoge of te lage druk kan van de velg lopen.",
+      "source": {
+        "manual": "roval-my22",
+        "page": 3
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Gebruik geen tubeless-plugs in combinatie met een binnenband; scherpe randen kunnen de binnenband lek maken.",
+      "source": {
+        "manual": "roval-my22",
+        "page": 5
+      }
+    },
+    {
+      "level": "caution",
+      "text": "Gebruik geen aceton of andere agressieve oplosmiddelen op de velg.",
+      "source": {
+        "manual": "roval-my22",
+        "page": 6
+      }
+    }
+  ],
+  "notFound": [
+    "Aanbevolen bandenspanning (verwijzing naar rovalcomponents.com)",
+    "Maximale velgdruk Roval CL 50",
+    "Tabel met juiste ventielen/plugs per wielmodel (handleiding verwijst naar een tabel die er niet in staat)",
+    "Slijtage-indicatie en vervangen van banden"
+  ],
+  "neededManuals": [
+    "Specialized S-Works Turbo bandeninformatie (max. druk, tubeless ja/nee)"
+  ]
+}

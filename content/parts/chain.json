@@ -1,0 +1,151 @@
+{
+  "id": "chain",
+  "name": "Ketting",
+  "group": "Aandrijving",
+  "coverage": "deels",
+  "description": "11-speed Shimano-ketting.",
+  "tools": [],
+  "torques": [],
+  "intervals": [
+    {
+      "label": "Ketting reinigen met een geschikte kettingreiniger",
+      "when": "Regelmatig; afhankelijk van gebruik en rijomstandigheden",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 7
+      }
+    },
+    {
+      "label": "Ketting controleren op vervorming, barsten, overslaan of onbedoeld schakelen",
+      "when": "Regelmatig (geen interval genoemd)",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 7
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "chain-check",
+      "title": "Ketting controleren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Controleer de ketting op vervorming of barsten, overslaan en onbedoeld schakelen. Bij problemen: naar de fietsenmaker; de ketting kan breken.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "chain-length",
+      "title": "Kettinglengte bepalen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Leg de ketting op de grootste tandkrans achter en het buitenblad voor.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 134
+          }
+        },
+        {
+          "text": "Voeg 2 schakels toe als binnen- en buitenschakel tegenover elkaar liggen; anders 1 of 3 schakels.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 134
+          }
+        },
+        {
+          "text": "Leid de ketting door de achterderailleur langs de kant van de pen die afloop voorkomt.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 134
+          }
+        }
+      ]
+    },
+    {
+      "id": "chain-clean",
+      "title": "Ketting reinigen en smeren",
+      "origin": "own",
+      "steps": [
+        {
+          "text": "Zet de fiets in de standaard (klem op de zadelpen) en schakel naar een middelste tandwiel.",
+          "source": null
+        },
+        {
+          "text": "Veeg de ketting af met een droge doek terwijl je de crank achteruit draait.",
+          "source": null
+        },
+        {
+          "text": "Reinig de ketting met een geschikte kettingreiniger of neutraal schoonmaakmiddel (zie de waarschuwing over oplosmiddelen). Houd het middel weg van de remschijven en remblokken.",
+          "source": null
+        },
+        {
+          "text": "Spoel of veeg na met een licht vochtige doek en laat de ketting volledig drogen.",
+          "source": null
+        },
+        {
+          "text": "Breng op elke schakel aan de binnenkant een druppel kettingsmeermiddel aan terwijl je de crank achteruit draait.",
+          "source": null
+        },
+        {
+          "text": "Laat het smeermiddel even intrekken en veeg het overtollige smeermiddel aan de buitenkant goed af.",
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "chain-wear",
+      "title": "Kettingslijtage controleren",
+      "origin": "own",
+      "steps": [
+        {
+          "text": "Meet de rek van de ketting met een kettingslijtagemeter.",
+          "source": null
+        },
+        {
+          "text": "Vergelijk met de slijtagegrens van de fabrikant (niet gevonden in de aangeleverde handleidingen) en vervang de ketting tijdig om cassette en kettingbladen te sparen.",
+          "source": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "text": "Gebruik nooit zure of alkalische oplosmiddelen zoals roestverwijderaar op de ketting: de ketting kan breken.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 7
+      }
+    },
+    {
+      "level": "info",
+      "text": "Reinigen met een neutraal schoonmaakmiddel en daarna smeren verlengt de levensduur van ketting en versnellingen.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 14
+      }
+    },
+    {
+      "level": "caution",
+      "text": "Spuit geen (hogedruk)water direct op lagers en de crankverbinding.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "notFound": [
+    "Slijtagegrens ketting (rek)",
+    "Ketting openen en sluiten (snelkoppeling of kettingpen)",
+    "Interval in kilometers voor reinigen, smeren of vervangen"
+  ],
+  "neededManuals": [
+    "Shimano CN-HG701-11 ketting (dealer manual)"
+  ]
+}

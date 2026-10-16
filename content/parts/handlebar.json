@@ -1,0 +1,114 @@
+{
+  "id": "handlebar",
+  "name": "Stuur",
+  "group": "Frame & cockpit",
+  "coverage": "deels",
+  "description": "Carbon Aerofly II-stuur met interne leidingen en kabelklemmen (handlebar cable bats).",
+  "tools": [
+    {
+      "label": "Inbussleutel 2,5 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Momentsleutel",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Kabelklemmen op het stuur (2 bouten)",
+      "nm": 1.0,
+      "inlbf": 9.0,
+      "tool": "2,5 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "intervals": [],
+  "tasks": [
+    {
+      "id": "handlebar-install",
+      "title": "Stuur monteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Monteer de twee kabelklemmen op het stuur en draai de bouten aan tot 1,0 Nm.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 8
+          }
+        },
+        {
+          "text": "Leid de remleidingen naar hun eigen stuurzijde en dan naar de remhendels. Ze kruisen elkaar niet tussen balhoofdbuis en stuur.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 9
+          }
+        },
+        {
+          "text": "Houd de beugels naar beneden, leg het stuur tegen de stuurpenklem en draai het in positie.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 9
+          }
+        },
+        {
+          "text": "Plaats voorplaat en bouten en draai kruislings aan tot 5,1 Nm (zie Stuurpen).",
+          "source": {
+            "manual": "venge-my19",
+            "page": 9
+          }
+        },
+        {
+          "text": "Tip: duw voor het inkorten van de hydraulische leidingen wat extra leiding in het stuur, zodat je later de zithouding nog iets kunt aanpassen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 9
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "text": "Het carbon Aerofly 2-stuur is niet geschikt voor opklembare aerobars die op het stuur klemmen.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 8
+      }
+    },
+    {
+      "level": "warning",
+      "text": "Draai de klembeugel van de remgreep niet om het stuur heen bij het monteren; dit kan het carbon beschadigen.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 8
+      }
+    }
+  ],
+  "parts": [
+    {
+      "partNo": "S189900105",
+      "label": "Kabelovergangsset stuurpen/Aerofly 2 (stuurklemmen)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 10
+      }
+    }
+  ],
+  "notFound": [
+    "Stuurlint vervangen",
+    "Interval voor stuurlint of stuurinspectie"
+  ],
+  "neededManuals": [],
+  "caution": "carbon"
+}

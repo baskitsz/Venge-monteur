@@ -1,0 +1,115 @@
+{
+  "id": "saddle",
+  "name": "Zadel",
+  "group": "Frame & cockpit",
+  "coverage": "deels",
+  "description": "Zadel op de railklem van de Venge-zadelpen.",
+  "tools": [
+    {
+      "label": "Inbussleutel 5 mm",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Momentsleutel",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    },
+    {
+      "label": "Schroefdraadborging",
+      "source": {
+        "manual": "venge-my19",
+        "page": 4
+      }
+    },
+    {
+      "label": "Hoogwaardig vet",
+      "source": {
+        "manual": "venge-my19",
+        "page": 4
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Zadelklem (rail clamp)",
+      "nm": 13.5,
+      "inlbf": 120,
+      "tool": "5 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "intervals": [],
+  "tasks": [
+    {
+      "id": "saddle-mount",
+      "title": "Zadel monteren of verstellen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Vet de contactvlakken van de binnenste railklemmen in en plaats ze in de kop van de zadelpen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        },
+        {
+          "text": "Leg de zadelrails op de binnenste klemmen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        },
+        {
+          "text": "Plaats de buitenste railklemmen over de rails: 7x7 mm-klemmen voor aluminium rails, 7x9 mm-klemmen voor carbon rails.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        },
+        {
+          "text": "Steek de vrouwelijke bout door een van de buitenste klemmen en laat het lipje in de groef vallen.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        },
+        {
+          "text": "Breng schroefdraadborging aan op de mannelijke bout en vet de boutkop en de ring in; plaats de ring op de bout.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        },
+        {
+          "text": "Steek de bout door de andere buitenste klem en draai hem in de vrouwelijke bout. Lijn de pijlen uit.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 4
+          }
+        },
+        {
+          "text": "Draai aan tot 13,5 Nm (5 mm inbus).",
+          "source": {
+            "manual": "venge-my19",
+            "page": 2
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "notFound": [
+    "Handleiding van het zadel zelf (maximaal aandraaimoment voor de rails, inspectie)"
+  ],
+  "neededManuals": [
+    "Handleiding van het originele zadel (optioneel)"
+  ]
+}

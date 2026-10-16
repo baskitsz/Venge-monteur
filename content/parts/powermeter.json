@@ -1,0 +1,21 @@
+{
+  "id": "powermeter",
+  "name": "Powermeter (4iiii)",
+  "group": "Aandrijving",
+  "coverage": "geen",
+  "description": "4iiii-powermeter op de crankarm.",
+  "tools": [],
+  "torques": [],
+  "intervals": [],
+  "tasks": [],
+  "warnings": [],
+  "notFound": [
+    "Batterij vervangen (type en werkwijze)",
+    "Nulkalibratie (zero offset)",
+    "Firmware bijwerken",
+    "Reinigen en waterbestendigheid"
+  ],
+  "neededManuals": [
+    "4iiii Precision-handleiding (model controleren: links/dubbelzijdig, generatie)"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "bb",
+  "name": "Trapas",
+  "group": "Aandrijving",
+  "coverage": "deels",
+  "description": "OSBB/BB30-trapashuis met aluminium lagerzittingen en borgveren. Achter de trapas, in de onderbuis, zit Junction B van Di2.",
+  "tools": [],
+  "torques": [],
+  "specs": [
+    {
+      "label": "Type trapashuis",
+      "value": "OSBB/BB30 met aluminium lagerzittingen en borgveren (circlips)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 3
+      }
+    },
+    {
+      "label": "BB30-lager",
+      "value": "6806 (42 x 30 x 7 mm)",
+      "source": {
+        "manual": "venge-my19",
+        "page": 3
+      }
+    }
+  ],
+  "intervals": [],
+  "tasks": [
+    {
+      "id": "bb-install",
+      "title": "Trapas (her)plaatsen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Er is geen poort bij de trapas om bij Junction B te komen: voor toegang moet de crank eruit, en afhankelijk van het type ook de trapas.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 3
+          }
+        },
+        {
+          "text": "Plaats een OSBB/BB30-compatibele trapas en monteer de crank volgens de specificaties van de fabrikant.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 3
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "caution",
+      "text": "Het trapashuis niet vlakfrezen of ruimen. De oppervlakken zijn in de fabriek op maat bewerkt.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 3
+      }
+    },
+    {
+      "level": "caution",
+      "text": "Spuit geen (hogedruk)water op de lagers; water kan de afdichtingen passeren en slijtage versnellen.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "notFound": [
+    "Welk trapastype/merk er origineel in zit",
+    "Aandraaimomenten trapas",
+    "Interval voor lagers controleren of vervangen"
+  ],
+  "neededManuals": [
+    "Handleiding van de geplaatste trapas (type staat niet in de Venge-handleiding)"
+  ]
+}

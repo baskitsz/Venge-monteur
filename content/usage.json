@@ -1,0 +1,148 @@
+{
+  "_info": "Gebruiksdata voor de statuskleuren. Vul zelf in: 'bikeKm' = huidige kilometerstand van de fiets; per onderdeel 'lastServiceKm' of 'lastServiceDate' (laatste onderhoud/vervanging) en een eigen interval in km ('intervalKm') of maanden ('intervalMonths'). Intervallen zijn je EIGEN keuze: de handleidingen noemen geen km-intervallen. Leeg (null) = geen status.",
+  "source": "handmatig",
+  "updated": null,
+  "bikeKm": null,
+  "parts": {
+    "frame": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "fork": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "headset": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "stem": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "handlebar": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "seatpost": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "saddle": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "bb": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "crankset": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "powermeter": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "chain": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "cassette": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "rd": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "fd": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "shifters": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "brakes": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "di2": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "wheelF": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "wheelR": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    },
+    "tires": {
+      "lastServiceKm": null,
+      "lastServiceDate": null,
+      "intervalKm": null,
+      "intervalMonths": null,
+      "note": ""
+    }
+  }
+}

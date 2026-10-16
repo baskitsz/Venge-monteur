@@ -1,0 +1,204 @@
+{
+  "id": "shifters",
+  "name": "Schakel-/remhendels",
+  "group": "Remmen & bediening",
+  "coverage": "goed",
+  "description": "Shimano Ultegra Di2-schakel/remhendels met hydraulische schijfrembediening.",
+  "tools": [
+    {
+      "label": "Inbussleutels 2 en 5 mm",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 146
+      }
+    },
+    {
+      "label": "Momentsleutel",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "torques": [
+    {
+      "location": "Klembout hendel op het stuur (ST-R8070)",
+      "nmMin": 6,
+      "nmMax": 8,
+      "tool": "5 mm inbus",
+      "note": "Shimano: bij een carbon stuur kan dit te veel of te weinig zijn; vraag het juiste moment aan de fiets- of stuurfabrikant.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 90
+      }
+    },
+    {
+      "location": "Klembout hendel: MAXIMUM volgens Specialized",
+      "nm": 10.2,
+      "inlbf": 90,
+      "tool": "5 mm inbus",
+      "source": {
+        "manual": "venge-my19",
+        "page": 2
+      }
+    }
+  ],
+  "intervals": [],
+  "tasks": [
+    {
+      "id": "shifters-install",
+      "title": "Hendels op het stuur monteren",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Sla het remgreeprubber vanaf de achterkant om; trek er niet aan.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 90
+          }
+        },
+        {
+          "text": "Draai de klembout bovenin de beugel voldoende los voordat je de hendel over het racestuur schuift.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 90
+          }
+        },
+        {
+          "text": "Schuif de hendels op het stuur zonder de klembeugel om het stuur te draaien.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 8
+          }
+        },
+        {
+          "text": "Zet de hendel op zijn plaats en draai de klembout aan: 6–8 Nm (5 mm inbus).",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 90
+          }
+        },
+        {
+          "text": "Leid de 1400 mm-draad (van onder de stuurpen) door het stuur naar een van de hendels; welke kant maakt niet uit.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 9
+          }
+        },
+        {
+          "text": "De achterremleiding blijft van balhoofd tot hendel aan de kant van de achterremhendel; de leidingen kruisen niet.",
+          "source": {
+            "manual": "venge-my19",
+            "page": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "shifters-reach",
+      "title": "Greepafstand (reach) afstellen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Gebruik een 2 mm inbussleutel op de stelbout voor het remgreepbereik (ST-R8070): linksom verkleint, rechtsom vergroot de hendelslag.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 146
+          }
+        },
+        {
+          "text": "Controleer daarna of de rem goed werkt.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 146
+          }
+        }
+      ]
+    },
+    {
+      "id": "shifters-freestroke",
+      "title": "Vrije slag afstellen (ST-R8070)",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Sla de beugelafdekking vanaf de voorkant om.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 147
+          }
+        },
+        {
+          "text": "Draai de stelschroef voor vrije slag met een 2 mm inbussleutel. Stop als de vrije slag niet meer toeneemt en forceer de schroef niet.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 147
+          }
+        },
+        {
+          "text": "Verwijder de tussenring van de stelschroef niet.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 147
+          }
+        }
+      ]
+    },
+    {
+      "id": "shifters-hood",
+      "title": "Remgreeprubber vervangen",
+      "origin": "manual",
+      "steps": [
+        {
+          "text": "Let op de markering R (rechts) of L (links) aan de binnenkant van het rubber.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 159
+          }
+        },
+        {
+          "text": "Bij de ST-R8070 moet de hendel met remleiding van de fiets, of de remklauw van het frame, om het rubber erover te krijgen.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 159
+          }
+        },
+        {
+          "text": "Ontlucht de rem als de remleiding is losgemaakt.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 159
+          }
+        },
+        {
+          "text": "Tip: wat schoonmaakalcohol aan de binnenkant van het rubber maakt plaatsen makkelijker.",
+          "source": {
+            "manual": "shimano-dm-r8050",
+            "page": 159
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "level": "warning",
+      "text": "Draai de klembeugel niet om het stuur bij het monteren; dit kan het carbon beschadigen.",
+      "source": {
+        "manual": "venge-my19",
+        "page": 8
+      }
+    },
+    {
+      "level": "caution",
+      "text": "Bij een carbon stuur kan het aanbevolen aanhaalmoment te sterk of te zwak zijn. Vraag het juiste moment aan de fabrikant van fiets of stuur.",
+      "source": {
+        "manual": "shimano-dm-r8050",
+        "page": 35
+      }
+    }
+  ],
+  "notFound": [
+    "Aanhaalmoment specifiek voor het Aerofly II-carbonstuur (Specialized geeft alleen het maximum)"
+  ],
+  "neededManuals": []
+}
